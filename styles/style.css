@@ -10,6 +10,7 @@
 
 body {
    background-color: rgba(220, 235, 237, 0.115); 
+   font-family: var(--default-font-family);
 }
 
 h1 {
@@ -34,4 +35,37 @@ font-family: var(--default-font-family);
     font-size: 18px;
     padding: 12px 30px;
     margin: 50px;
+}
+
+.btn-app {  
+    background-color: white;
+border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 12px 30px;
+    margin: 20px 0;
+}
+
+.main p {
+    font-size: 60px;
+}
+
+.main h2 {
+    font-size: 28px;
+}
+
+.main strong {
+    font-size: 60px;
+}
+
+@media (max-width: 900px) {
+    .project-description {
+        text-align: center;
+    }
+
+    .main {
+
+        padding: 60px 20px;
+    }
 }
