@@ -24,7 +24,7 @@ font-family: var(--default-font-family);
 .main {
     background-color:var(--branding-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 130px 20px;
 }
 
 .btn-branding {
@@ -33,7 +33,7 @@ font-family: var(--default-font-family);
     border-radius: 5px;
     font-size: 18px;
     padding: 12px 30px;
-margin: 30px auto;
+margin: 60px 20px;
 }
 
 .btn-app {  
@@ -58,15 +58,33 @@ border: 1px solid var(--secondary-color);
     font-size: 60px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 576px) {
     .project-description {
         text-align: center;
     }
 
     .main {
-
         padding: 60px 20px;
     }
+
+    .project-img {
+        height: auto; 
+    }
+    
+    .project-title {
+        font-size: 20px; 
+    }
+    
+    .btn-branding {
+        font-size: 14px; 
+        padding: 8px 20px; 
+        margin: 20px 5px; 
+
+}
+
+.statement {
+    font-size: 24px;
+    font-family: var(--default-font-family);
 }
 
 .content-container {
@@ -108,15 +126,7 @@ img {
     font-size: 24px;
 }
 
-@media (max-width: 576px) {
-    .project-img {
-        height: auto; 
-    }
-    
-    .project-title {
-        font-size: 20px; 
-    }
-}
+
 
 .navigation-links {
     display: flex;
@@ -132,4 +142,14 @@ img {
     text-transform: capitalize;
   }
 
- 
+
+footer {
+    margin: 100px 0;
+}
+
+
+
+.social-links a {
+margin: 0 50px;
+color: var(--secondary-color);
+ }
