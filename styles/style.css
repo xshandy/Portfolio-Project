@@ -80,7 +80,7 @@ border: 1px solid var(--secondary-color);
         padding: 8px 20px; 
         margin: 20px 5px; 
 
-}
+}}
 
 .statement {
     font-size: 24px;
@@ -142,14 +142,11 @@ img {
     text-transform: capitalize;
   }
 
-
-footer {
+  footer {
     margin: 100px 0;
 }
 
-
-
 .social-links a {
-margin: 0 50px;
-color: var(--secondary-color);
- }
+    margin: 0 50px;
+    color: var(--secondary-color);
+     }
