@@ -27,6 +27,7 @@ font-family: var(--default-font-family);
     padding: 130px 20px;
 }
 
+
 .btn-branding {
     background-color: var(--secondary-color);
     color: #ffff;
@@ -88,7 +89,7 @@ border: 1px solid var(--secondary-color);
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 100px 20px;
 }
 
 .content-container h1 {
@@ -126,20 +127,27 @@ img {
     font-size: 24px;
 }
 
+nav {
+    padding: 10px 0;
+}
 
-
-.navigation-links {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
+.nav-item {
+    display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
   }
   
-  .navigation-links a {
+  .nav-item a {
     margin: 20px;
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
-    text-transform: capitalize;
+    color: black;
+  }
+
+  .nav-item a:hover {
+    color: var(--secondary-color);
   }
 
   footer {
@@ -150,3 +158,11 @@ img {
     margin: 0 50px;
     color: var(--secondary-color);
      }
+
+.content a {
+    color: var(--secondary-color);
+}     
+
+.icons {
+    padding-right: 8px;
+}
