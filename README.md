@@ -9,4 +9,5 @@ This project is my portfolio website.
 ## Technologies Used
 
 Frontend - HTML, Bootstrap CSS
+
 Tools - Git, Netlify
