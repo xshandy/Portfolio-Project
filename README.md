@@ -1,4 +1,4 @@
-#Shandy Shek - Portfolio Website
+# Shandy Shek - Portfolio Website
 
 ![Projects Screenshot](./images/portfolio-website.png)
 
