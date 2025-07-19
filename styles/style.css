@@ -1,6 +1,6 @@
 :root {
   --branding-color: rgb(200, 243, 248);
-  --secondary-color: rgb(86, 173, 211);
+  --secondary-color: #d9a5b3;
   --heading-font-family: "Quicksand", sans-serif;
   --default-font-family: "Jost", sans-serif;
 }
@@ -19,7 +19,7 @@ p {
 }
 
 .main {
-  background-color: var(--branding-color);
+  background: linear-gradient(180deg, #edf3f4, #ece6e0);
   text-align: center;
   padding: 130px 20px;
 }
@@ -53,6 +53,10 @@ p {
 
 .main strong {
   font-size: 60px;
+}
+
+.main i {
+  color: #d9a5b3;
 }
 
 @media (max-width: 576px) {
